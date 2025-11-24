@@ -24,7 +24,7 @@ include '../models/koneksi.php'
         <strong>Produk:</strong> <?= htmlspecialchars($produk['nama_produk']) ?><br>
         <strong>Harga:</strong> Rp <?= number_format($produk['harga'],0,',','.') ?>
     </div>
-    <form action="../controllers/proses_pesan.php" method="POST">
+    <form action="../controllers/c_pesan.php" method="POST">
         <input type="hidden" name="produk_id" value="<?= $produk['produk_id'] ?>">
         <label>Jumlah</label>
         <input type="number" name="jumlah" value="1" min="1" required>
