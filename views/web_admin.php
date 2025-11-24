@@ -88,12 +88,13 @@
 
 <div class="navbar">
         <div class="logo">
-            <a href="#">MY LOGO</a>
+            <a href="#">SNEAKERS</a>
         </div>
         <div class="menu">
             <a href="v_tampil_data_user.php">daftar user</a>
             <a href="pesanan_admin.php">daftar pesanan</a>
             <a href="v_tampil_data_produk.php">daftar produk</a>
+            <a href="../controllers/logout.php">logout</a>
         </div>
     </div>
 <div class="container">

@@ -56,7 +56,7 @@
 <body>
     <div class="card">
         <h2>Login</h2>
-        <form action="../controllers/proses_login.php" method="post">
+        <form action="../controllers/c_login.php" method="post">
            <input type="hidden" id="user_id" name="user_id" value="">
             <div class="form-group">
 

@@ -1,7 +1,7 @@
 login admin :
-username : zaki
-password : 123098
+username : admin
+password : admin
 
 login user :
-username :zaki
-password :12345
+username :user
+password :user

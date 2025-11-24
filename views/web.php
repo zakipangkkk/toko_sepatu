@@ -63,15 +63,36 @@
             height: 200px;
             object-fit: cover;
         }
+        .navbar {
+            background-color: #007BFF; /* Warna biru */
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            opacity: 0.8;
+        }
 
     </style>
 </head>
 <body>
-
-<header>
-    TOKO SEPATU ONLINE
-</header>
-
+<div class="navbar">
+        <div class="logo">
+            <a href="#"> SNEAKERS</a>
+        </div>
+        <div class="menu">
+            <a href="../controllers/logout.php">logout</a>
+        </div>
+    </div>
 <div class="container">
     <div class="grid">
 
